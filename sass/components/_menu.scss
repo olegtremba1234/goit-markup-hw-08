@@ -100,6 +100,10 @@
     margin-bottom: 64px;
 }
 
+.mobile__contacts-item:not(:last-child){
+    margin-bottom: 32px;
+}
+
 .contacts__menu-link--tel{
     font-weight: 500;
     font-size: 34px;
