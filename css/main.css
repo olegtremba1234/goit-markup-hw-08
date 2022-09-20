@@ -1125,13 +1125,11 @@ textarea {
 }
 
 .work {
-  padding-top: 0;
-  padding-top: 94px;
-  padding-bottom: 94px;
   display: none;
 }
 @media screen and (min-width: 1200px) {
   .work {
+    padding-top: 0;
     display: block;
   }
 }
