@@ -1,0 +1,18 @@
+/*-----header---------*/
+.header {
+    border-bottom: 1px solid #ececec;
+
+    @media screen and (max-width: 767px) {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+

@@ -1,0 +1,22 @@
+.container {
+    // 480px - mobile breakpoint
+    // 768px - tablet breakpoint
+    // 1200px - desktop breakpoint
+
+    // mobile breakpoint
+    max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    // tablet breakpoint
+    @media screen and (min-width: 768px) {
+        max-width: 768px;
+    }
+    
+    // desctop breakpoints
+    @media screen and (min-width: 1200px) {
+        max-width: 1200px;
+    }
+}
